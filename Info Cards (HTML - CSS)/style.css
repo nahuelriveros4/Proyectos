@@ -1,0 +1,102 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: 7rem;
+    max-width: 800px;
+}
+.card1{
+    padding: 6rem 2rem 6rem 2rem;
+    background-color: #f39c12;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.card2{
+    padding: 6rem 2rem 6rem 2rem;
+    background-color: #1a5276;
+}
+
+.card3{
+    padding:     6rem 2rem 6rem 2rem;
+    background-color: #2e4053;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+.linkhtml{
+    color: #f39c12;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+.linkcss{
+    color: #1a5276;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+.linkjs{
+    color: #2e4053;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+svg{
+    max-width: 50px;
+}
+
+/* Estilos para dispositivos pequeños (móviles) */
+@media (max-width: 600px) {
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        margin: 3rem;
+        gap: 15px;
+        max-width: 600px;
+    }
+    .card1{
+        border-radius: 10px;
+    }
+    .card2{
+        border-radius: 10px;
+    }
+    .card3{
+        border-radius: 10px;
+    }
+}
+
+  /* Estilos para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        margin: 3rem;
+        gap: 15px;
+    }
+    .card1{
+        border-radius: 10px;
+    }
+    .card2{
+        border-radius: 10px;
+    }
+    .card3{
+        border-radius: 10px;
+    }
+}
