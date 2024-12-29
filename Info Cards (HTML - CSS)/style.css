@@ -63,13 +63,13 @@ svg{
 }
 
 /* Estilos para dispositivos pequeños (móviles) */
-@media (max-width: 600px) {
+@media (max-width: 844px) {
     .contenedor{
         display: flex;
         flex-direction: column;
         margin: 3rem;
         gap: 15px;
-        max-width: 600px;
+        max-width: 844px;
     }
     .card1{
         border-radius: 10px;
@@ -83,15 +83,17 @@ svg{
 }
 
   /* Estilos para tablets */
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .contenedor{
         display: flex;
         flex-direction: row;
         margin: 3rem;
         gap: 15px;
+        max-width: 768px;
     }
     .card1{
         border-radius: 10px;
+        
     }
     .card2{
         border-radius: 10px;
