@@ -1,0 +1,46 @@
+body{
+    background-color: #1c2833;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 4rem;
+    max-width: 600px;
+    border-radius: 20px;
+    background-color: #34495e;
+}
+
+.pais{
+    color: #2980b9;
+    font-size: small;
+}
+
+img{
+    max-height: 10rem;
+    border-radius: 100%;
+}
+
+.lista-redes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a{
+    background-color: #1c2833;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    border-radius: 5px;
+}
